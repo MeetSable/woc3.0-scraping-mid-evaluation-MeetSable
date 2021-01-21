@@ -113,7 +113,7 @@ while True:
         except:
             print("email address or password is wrong")
             if input("want to change different email?[y/n]: ") == "n":
-                sys.exit
+                sys.exit()
             sender_email = input("Email address: ")
             password = input("Password: ")
 
